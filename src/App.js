@@ -7,7 +7,7 @@ import Login from './Components/Login';
 function App() {
   return (
     <div className='App'> 
-     my name is shruti Gataraddihal
+     my name is shruti Gataraddihal KC
     <Greet></Greet>
     <Welcome></Welcome>
     <Login></Login>
