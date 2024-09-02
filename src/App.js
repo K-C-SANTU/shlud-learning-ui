@@ -1,5 +1,7 @@
 import { Button, Stack } from "@mui/material";
 import UseStateHook from "./ReactHooks/UseState.hook";
+import Ushook from "./ReactHooks/UseState.hook1";
+
 // handling promisses 
 let interval;
 const App = () => {
@@ -32,7 +34,7 @@ const App = () => {
         testing
       </Button> */}
       <UseStateHook />
-      
+      <Ushook />
     </Stack>
   );
 }
