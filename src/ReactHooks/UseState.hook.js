@@ -1,24 +1,19 @@
 import { useState } from "react";
 
 function UseStateHook() {
-  console.log(1);
-  const [data, kc] = useState("Shruti");
-  //   let firstName = "KC";
-  console.log(2);
+  const [data, setData] = useState("Shruti");
+
   function changeName() {
-    // data = "GOMBEEE111";
-    kc("GOMBEEEE");
+    setData("GOMBEEEE");
   }
-  console.log(3);
   return (
     <>
-      {/* {data} */}
       firstName: {data} printered here
       <br />
       <button onClick={() => changeName()}>Change Name</button>
+      //<button onClick={changeName}>Changed Name</button>
     </>
   );
 }
 
 export default UseStateHook;
-
