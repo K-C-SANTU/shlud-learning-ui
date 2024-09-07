@@ -1,6 +1,8 @@
 import { Button, Stack } from "@mui/material";
 import UseStateHook from "./ReactHooks/UseState.hook";
 import Ushook from "./ReactHooks/UseState.hook1";
+import UseRefHook from "./ReactHooks/UseRefHook";
+import UseContextHook from "./ReactHooks/UseContextHook";
 
 // handling promisses 
 let interval;
@@ -35,6 +37,8 @@ const App = () => {
       </Button> */}
       <UseStateHook />
       <Ushook />
+      <UseRefHook/>
+      <UseContextHook/>
     </Stack>
   );
 }
