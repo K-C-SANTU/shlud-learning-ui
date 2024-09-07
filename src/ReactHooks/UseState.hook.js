@@ -4,7 +4,7 @@ function UseStateHook() {
   const [data, setData] = useState("Shruti");
 
   function changeName() {
-    setData("GOMBEEEE");
+    setData("Shruti Gataraddihal");
   }
   return (
     <>
