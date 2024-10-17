@@ -8,10 +8,10 @@ export const UseContextProvider = createContext();
 function RouterComponent() {
     const [header] = useState(
         {
-            logoTitle: "Santosh",
+            logoTitle: "Shuti L G",
             pages: ['Order', 'Cart'],
             profile: {
-                profileName: "KC",
+                profileName: "Shruti",
                 options: ['Profile', 'Account']
             },
             showHeader: true
@@ -25,7 +25,7 @@ function RouterComponent() {
             <BrowserRouter>
                 <Header />
                 <Routes>
-                    <Route path="/login" Component={Login} />
+                    <Route path="/" Component={Login} />
                     <Route path="/counter" Component={Counter} />
                 </Routes>
             </BrowserRouter>
