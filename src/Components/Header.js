@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import Profile from './Profile';
-import { UseContextProvider } from './HomePage';
+import { UseContextProvider } from './Routes';
 
 function Header() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -160,8 +160,6 @@ function Header() {
                     </Toolbar>
                 </Container>
             </AppBar>
-            <br />
-            <Profile />
         </>
     );
 }
